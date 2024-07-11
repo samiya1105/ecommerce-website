@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 .home-text-apply{
-    margin-top: 20%;
+    margin-top: 15%;
     text-align: center
 }
 .subtitle{
@@ -35,9 +35,56 @@ body{
     border-radius: 0px;
     padding: 7px 20px;
 }
-
+.cart-nav{
+    margin-left:30px;
+}
+.head{
+    justify-content:start !important;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
 .nav-apply{
     border-bottom: 1px solid #f9f9f9;
-    padding: 15px 150px;
+}
+.btn-apply{
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+
+.categories-div{
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 24px;
+    text-align: left;
+}
+h5 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.list-right{
+    text-align: right;
+}
+.list-group{
+    text-align: left;
+    line-height: 0px;
+}
+.list-group-item{
+    border: none;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.card{
+    border: none;
+}
+.card-img-top{
+    background-color: whitesmoke;
 }
   
