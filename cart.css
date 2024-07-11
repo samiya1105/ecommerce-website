@@ -1,9 +1,5 @@
-.cart-nav{
-    margin-left:30px;
-}
-.head{
+.head-text{
     justify-content:start !important;
-    align-items: center;
 }
 .table-header{
     color:darkgray;
@@ -14,7 +10,6 @@
 }
 .qty-btn-apply{
     width:120px;
-
 }
 .quantity-btn{
     border:1px red solid;
@@ -39,4 +34,7 @@
 .apply-btn{
     font-size: 12px;
     padding: 11px 60px;
+}
+.cart-totals{
+    margin-left: 220px;
 }
