@@ -11,10 +11,14 @@
     margin-left: 75px;
 }
 .women-men-btns{
-    top:900px;
-    right: 50px;
+    top: 60%;
+    left: 50%;
+
 }
 .items-text{
     font-size: 10px;
     padding-top: 12px;
+}
+.grid-2{
+    gap: 10px;
 }
