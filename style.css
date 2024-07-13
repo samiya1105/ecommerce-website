@@ -1,5 +1,11 @@
 .header-text:hover{
     color: pink !important;
+} 
+.btn-dark{
+    background-color: black;
+}
+.text-dark{
+    color: black !important;
 }
 .bg-header{
     font-size: 60px;
@@ -21,4 +27,37 @@
 }
 .prod-height{
     height: 100%;
+}
+.ratos{
+    color: yellow;
+    font-size: 10px;
+}
+.angle-pre-nxt{
+    margin:20px 500px;
+}
+/* .arrow-icons:hover{
+    color: black;
+} */
+.borderstyle{
+    width: 7%;
+    margin: 25px 515px;
+}
+.foot-img{
+    width: 75%;
+}
+.contact-container{
+    margin-left: 95px;
+}
+.footer-links{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.number{
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 0px 7px;
 }

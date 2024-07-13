@@ -116,4 +116,22 @@ h5 {
     border: 1px gray solid;
     margin: 7px;
 }
-  
+.foot-img{
+    width: 75%;
+}
+.contact-container{
+    margin-left: 95px;
+}
+.footer-links{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.number{
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 0px 7px;
+}

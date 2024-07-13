@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cart</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- font-awesome-link -->
@@ -11,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="cart.css">
+    <title>Cart Page</title>
   </head>
   <body>
     <section class="header-container">
@@ -49,6 +49,7 @@
                                   </li>
                                   <li class="nav-item mx-3">
                                       <i class="fa-solid fa-cart-plus fs-5"></i>
+                                      <span class="number text-light border-danger bg-danger">2</span>
                                   </li>
                               </ul>
                           </div>
@@ -175,6 +176,63 @@
       </div>  
     </section>
 
+    <section class="footer-section mt-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-4">
+            <p>PROMO</p>
+            <ul class="list-unstyled mt-4">
+              <li class="pb-3"><img src="home-images/footer-img.png" alt="img" class="foot-img"></li>
+              <li class="pb-3"><a href="#" class="text-decoration-none text-danger text-capitalize">Finding your perfect Shirts this Summer</a></li>
+              <li class="pb-3"><a href="#" class="text-decoration-none text-secondary"> Promo from July 15 - 25, 2024</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <p>QUICK LINKS</p>
+            <div class="d-flex text-secondary mt-4">
+              <ul class="list-unstyled footer-links">
+                <li class="pb-3">Sell online</li>
+                <li class="pb-3">Features</li>
+                <li class="pb-3">Shopping cart</li>
+                <li class="pb-3">Store builder</li>
+              </ul>
+              <ul class="list-unstyled footer-links">
+                <li class="pb-3">Mobile commerce</li>
+                <li class="pb-3">Dropshipping</li>
+                <li class="pb-3">Website</li>
+                <li class="pb-3">Development</li>
+              </ul>
+              <ul class="list-unstyled footer-links">
+                <li class="pb-3">Point of sale</li>
+                <li class="pb-3">Hardware</li>
+                <li class="pb-3">Software</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-container">
+              <p>CONTACT INFO</p>
+              <ul class="list-unstyled">
+                <li class="d-flex"><i class="fa-solid fa-location-dot text-danger pt-1"></i><p class="px-2">203 Fake St. Mountain View, San Francisco, California, USA</p></li>
+                <li class="d-flex"><i class="fa-solid fa-phone text-danger pt-1"></i><a href="#" class="px-2 text-decoration-none text-secondary">+2 392 3929 210</a></li>
+                <li class="d-flex pt-3"><i class="fa-solid fa-envelope text-danger pt-1"></i><p class="px-2">emailaddress@domain.com</p></li>
+              </ul>    
+                <form>
+                  <label for="exampleInputEmail1" class="form-label text-secondary">SUBSCRIBE</label>
+                  <div class="mb-3 d-flex">
+                    <input type="email" class="form-control rounded-1 py-2" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                    <button type="submit" class="btn btn-danger rounded-1">SEND</button>
+                  </div>
+                </form>
+            </div>            
+          </div>
+          <div class="owner-container my-5 text-center">
+            <p class="text-secondary">Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by</p>
+            <p class="text-danger">Ansari Anam | Ansari Waheba | Shaikh Samiya</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
