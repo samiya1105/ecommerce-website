@@ -61,3 +61,45 @@
     border-radius: 50%;
     padding: 0px 7px;
 }
+
+@media only screen and (max-width:768px){
+    /* body{
+        background-color: red;
+    } */
+    .bg-text{
+        margin-top: 50px;
+    }
+    .bg-header{
+        font-size: 45px;
+    }
+    .borderstyle{
+        width: 20%;
+        margin: 25px 137px;
+    }
+    .contact-container{
+        margin-left: 0px;
+    }
+    .angle-pre-nxt{
+        margin:20px 120px;
+    }
+    .shop-btn{
+        font-size: 12px;
+        padding: 10px 25px !important;
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    /* body{
+        background-color: yellow;
+    } */
+    .bg-text{
+        margin-top: 50px;
+    }
+    .borderstyle{
+        width: 15%;
+        margin: 25px 287px;
+    }
+    .contact-container{
+        margin-left: 0px;
+    }
+    
+}
